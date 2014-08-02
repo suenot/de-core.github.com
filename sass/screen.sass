@@ -1,0 +1,28 @@
+@import compass
+@import vars
+@import mixins
+@import sticky-footer
+@import font/awesome
+@import font/alsrubl-tahoma
+
+.header
+	h1
+		float: left
+		@media (max-width: $screen-xs-min)
+			font-size: 27px
+	input
+		float: right
+		width: 275px
+		margin-top: 33px
+		@media (max-width: $screen-xs-min)
+			float: none
+
+a.fa-globe
+	text-decoration: none
+
+#logo svg
+	vertical-align: middle
+	.circle, .de path
+		fill: white !important
+	.core path
+		fill: #222 !important

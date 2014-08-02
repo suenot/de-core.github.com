@@ -1,0 +1,85 @@
+/*
+Syntax error: File to import not found or unreadable: variables.
+              Load paths:
+                /home/suenot/works/de-core.github.com/sass
+                /home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/frameworks/blueprint/stylesheets
+                /home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/frameworks/compass/stylesheets
+                Compass::SpriteImporter
+        on line 2 of /home/suenot/works/de-core.github.com/sass/themes/global/build.scss
+
+1: /home/suenot/works/de-core.github.com/sass/themes/global/build.scss
+
+Backtrace:
+/home/suenot/works/de-core.github.com/sass/themes/global/build.scss:2
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/import_node.rb:45:in `import'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/import_node.rb:28:in `imported_file'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/import_node.rb:37:in `css_import?'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/root_node.rb:20:in `render'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/engine.rb:315:in `_render'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/engine.rb:262:in `render'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/compiler.rb:139:in `block (2 levels) in compile'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/compiler.rb:138:in `block in compile'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/logger.rb:45:in `red'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/compiler.rb:137:in `compile'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/compiler.rb:118:in `compile_if_required'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `each'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `block in run'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/compiler.rb:100:in `run'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/commands/watch_project.rb:147:in `recompile'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/commands/watch_project.rb:95:in `block (4 levels) in perform'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/path.rb:39:in `delete'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/state/directory.rb:32:in `block in deleted'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/state/directory.rb:31:in `each'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/state/directory.rb:31:in `deleted'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/state/directory.rb:16:in `refresh'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/backends/inotify.rb:12:in `block in add_handler'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/rb-inotify-0.9.4/lib/rb-inotify/notifier.rb:205:in `call'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/rb-inotify-0.9.4/lib/rb-inotify/notifier.rb:205:in `block in watch'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/rb-inotify-0.9.4/lib/rb-inotify/watcher.rb:41:in `[]'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/rb-inotify-0.9.4/lib/rb-inotify/watcher.rb:41:in `callback!'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/rb-inotify-0.9.4/lib/rb-inotify/event.rb:128:in `callback!'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/rb-inotify-0.9.4/lib/rb-inotify/notifier.rb:238:in `block in process'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/rb-inotify-0.9.4/lib/rb-inotify/notifier.rb:238:in `each'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/rb-inotify-0.9.4/lib/rb-inotify/notifier.rb:238:in `process'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/rb-inotify-0.9.4/lib/rb-inotify/notifier.rb:221:in `run'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/backends/inotify.rb:20:in `run'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/commands/watch_project.rb:87:in `perform'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/commands/base.rb:18:in `execute'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/commands/project_base.rb:19:in `execute'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/bin/compass:30:in `block in <top (required)>'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/bin/compass:44:in `call'
+/home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/bin/compass:44:in `<top (required)>'
+/home/suenot/.rvm/gems/ruby-2.1.2/bin/compass:23:in `load'
+/home/suenot/.rvm/gems/ruby-2.1.2/bin/compass:23:in `<main>'
+/home/suenot/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/home/suenot/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: variables.\A               Load paths:\A                 /home/suenot/works/de-core.github.com/sass\A                 /home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/frameworks/blueprint/stylesheets\A                 /home/suenot/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 2 of /home/suenot/works/de-core.github.com/sass/themes/global/build.scss\A \A 1: /home/suenot/works/de-core.github.com/sass/themes/global/build.scss"; }
